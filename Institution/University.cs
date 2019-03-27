@@ -38,7 +38,7 @@ namespace InternshipTest.Institution
             return ret;
         }
         private string universityName;
-        public Student[] students = new Student[100];
+        private Student[] students = new Student[100];
         private int studentsCount = 0;
     }
 }
